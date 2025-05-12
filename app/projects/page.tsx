@@ -1,0 +1,100 @@
+"use client"
+
+import { useEffect, useState } from "react"
+import { motion } from "framer-motion"
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
+import CustomCursor from "@/components/custom-cursor"
+import ProjectCard from "@/components/project-card"
+
+export default function ProjectsPage() {
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
+  const [cursorVariant, setCursorVariant] = useState("default")
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      setCursorPosition({ x: e.clientX, y: e.clientY })
+    }
+
+    window.addEventListener("mousemove", handleMouseMove)
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove)
+    }
+  }, [])
+
+  const projects = [
+    {
+      id: 1,
+      title: "BridgePay Web3 Remittance Platform",
+      description:
+        "A cross-border payment system leveraging blockchain technology to eliminate banking intermediaries. Implemented Ethereum smart contracts for secure, transparent, and low-cost transactions.",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["Blockchain", "Ethereum", "Smart Contracts", "Web3.js"],
+      github: "https://github.com",
+      demo: "https://demo.com",
+    },
+    {
+      id: 2,
+      title: "VibeSync AI-Powered Emotional Assistant",
+      description:
+        "An AI-driven chatbot that detects user emotions and delivers personalized mental health insights using NLP and sentiment analysis. Integrated OpenAI APIs to ensure high accuracy in emotional detection and user interaction.",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["AI", "NLP", "OpenAI", "React", "Node.js"],
+      github: "https://github.com",
+      demo: "https://demo.com",
+    },
+    {
+      id: 3,
+      title: "Aarogyam Student Healthcare Management System",
+      description:
+        "A real-time medical record management platform for educational institutions, ensuring secure data storage and streamlined healthcare tracking using React.js, Node.js, and MongoDB.",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["React", "Node.js", "MongoDB", "Healthcare"],
+      github: "https://github.com",
+      demo: "https://demo.com",
+    },
+    {
+      id: 4,
+      title: "Portfolio Website",
+      description:
+        "A modern, visually stunning personal portfolio website with a futuristic, cinematic aesthetic inspired by Netflix. Features include smooth animations, custom cursor, and a clean fullscreen layout.",
+      image: "/placeholder.svg?height=600&width=800",
+      tags: ["React", "Framer Motion", "Tailwind CSS"],
+      github: "https://github.com",
+      demo: "https://demo.com",
+    },
+  ]
+
+  return (
+    <div className="relative bg-black text-white min-h-screen overflow-x-hidden">
+      <CustomCursor cursorPosition={cursorPosition} cursorVariant={cursorVariant} />
+      <Navbar setCursorVariant={setCursorVariant} />
+      <main className="container mx-auto py-20 px-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="max-w-6xl mx-auto"
+        >
+          <h1 className="text-4xl font-bold mb-10 bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-purple-500 to-blue-500">
+            Projects
+          </h1>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <motion.div
+                key={project.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <ProjectCard project={project} setCursorVariant={setCursorVariant} />
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </main>
+      <Footer setCursorVariant={setCursorVariant} />
+    </div>
+  )
+}

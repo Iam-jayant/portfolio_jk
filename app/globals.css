@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom Styles */
+html,
+body {
+  cursor: none;
+  overflow-x: hidden;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-purple-500;
+}
+
+.glassmorphic {
+  @apply bg-zinc-50 dark:bg-zinc-900/70 backdrop-blur-sm border border-zinc-200 dark:border-zinc-800 shadow-xl;
+}
+
+.neon-glow {
+  text-shadow: 0 0 10px rgba(192, 38, 211, 0.7), 0 0 20px rgba(192, 38, 211, 0.5);
+}
+
+.neon-box {
+  box-shadow: 0 0 10px rgba(192, 38, 211, 0.7), 0 0 20px rgba(192, 38, 211, 0.5);
+}
+
+.neon-border {
+  @apply border border-purple-500;
+  box-shadow: 0 0 10px rgba(192, 38, 211, 0.7), 0 0 20px rgba(192, 38, 211, 0.5);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+.netflix-card {
+  @apply relative overflow-hidden rounded-lg;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.netflix-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+.netflix-card-overlay {
+  @apply absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0;
+  transition: opacity 0.3s ease;
+}
+
+.netflix-card:hover .netflix-card-overlay {
+  opacity: 1;
+}
+
+.netflix-card-content {
+  @apply absolute bottom-0 left-0 w-full p-4 transform translate-y-4 opacity-0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.netflix-card:hover .netflix-card-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Hacker Mode Styles */
+.hacker-mode {
+  font-family: "Courier New", monospace;
+  color: #00ff00 !important;
+  background-color: #000000 !important;
+  position: relative;
+}
+
+.hacker-mode::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 255, 0, 0.03) 50%, transparent 50%);
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 100;
+  animation: scan 0.5s linear infinite;
+}
+
+.hacker-mode * {
+  color: #00ff00 !important;
+  border-color: #00ff00 !important;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.7) !important;
+}
+
+.hacker-mode button,
+.hacker-mode a {
+  background-color: #000000 !important;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7) !important;
+}
+
+.hacker-mode img {
+  filter: sepia(100%) hue-rotate(80deg) saturate(500%) brightness(0.8) !important;
+}
+
+@keyframes scan {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
