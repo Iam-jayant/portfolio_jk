@@ -117,14 +117,14 @@ export default function Contact({ setCursorVariant }: ContactProps) {
                   <div>
                     <h4 className="font-semibold">GitHub</h4>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Iam-jayant"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-zinc-400 hover:text-purple-400 transition-colors"
                       onMouseEnter={() => setCursorVariant("link")}
                       onMouseLeave={() => setCursorVariant("default")}
                     >
-                      github.com/jayant
+                      https://github.com/Iam-jayant
                     </a>
                   </div>
                 </div>
@@ -134,14 +134,14 @@ export default function Contact({ setCursorVariant }: ContactProps) {
                   <div>
                     <h4 className="font-semibold">LinkedIn</h4>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/jayant-kurekar/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-zinc-400 hover:text-purple-400 transition-colors"
                       onMouseEnter={() => setCursorVariant("link")}
                       onMouseLeave={() => setCursorVariant("default")}
                     >
-                      linkedin.com/in/jayant
+                      https://www.linkedin.com/in/jayant-kurekar/
                     </a>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ export default function Contact({ setCursorVariant }: ContactProps) {
                 <h4 className="font-semibold mb-4">Connect with me</h4>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Iam-jayant"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 transition-colors"
@@ -161,7 +161,7 @@ export default function Contact({ setCursorVariant }: ContactProps) {
                     <Github className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/jayant-kurekar/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 transition-colors"

@@ -26,7 +26,7 @@ export default function Footer({ setCursorVariant }: FooterProps) {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Iam-jayant"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors"
@@ -37,7 +37,7 @@ export default function Footer({ setCursorVariant }: FooterProps) {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jayant-kurekar/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors"

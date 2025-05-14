@@ -17,35 +17,19 @@ export default function Testimonials({ setCursorVariant }: TestimonialsProps) {
   const testimonials = [
     {
       id: 1,
-      name: "Alex Johnson",
-      role: "CTO at TechVentures",
+      name: "Yash Atkari",
+      role: "Opem-source Contributor",
       quote:
         "Jayant's work on our blockchain remittance platform was exceptional. His technical expertise and problem-solving skills helped us launch a product that exceeded our expectations.",
       image: "/placeholder.svg?height=200&width=200",
     },
     {
       id: 2,
-      name: "Sophia Chen",
-      role: "Lead Developer at AI Solutions",
+      name: "Manthan Nagose",
+      role: "Project Mate",
       quote:
-        "Working with Jayant on our emotion detection AI was a pleasure. His understanding of both the technical and human aspects of the project made him an invaluable team member.",
-      image: "/placeholder.svg?height=200&width=200",
-    },
-    {
-      id: 3,
-      name: "Michael Rodriguez",
-      role: "Founder of HealthTech Innovations",
-      quote:
-        "Jayant's contribution to our healthcare management system was crucial to its success. His attention to detail and commitment to quality are truly impressive.",
-      image: "/placeholder.svg?height=200&width=200",
-    },
-    {
-      id: 4,
-      name: "Priya Sharma",
-      role: "UI/UX Director at DesignHub",
-      quote:
-        "The portfolio website Jayant created for our client was stunning. His ability to blend aesthetic design with technical functionality resulted in a truly exceptional product.",
-      image: "/placeholder.svg?height=200&width=200",
+        "Worked with Jayant on our emotional AI was a pleasure. His understanding of both the technical and human aspects of the project made him an invaluable team member.",
+      Image:"/placeholder.svg?height=200&width=200",
     },
   ]
 

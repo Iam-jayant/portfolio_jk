@@ -37,6 +37,7 @@ export default function BlogCard({ post, setCursorVariant }: BlogCardProps) {
             width={800}
             height={450}
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+            priority={false}
           />
           <div className="absolute top-4 left-4">
             <Badge className="bg-red-500 hover:bg-red-600 text-white border-none">{post.category}</Badge>
