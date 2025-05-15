@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { useTheme } from "next-themes"
 
@@ -11,6 +12,13 @@ interface CustomCursorProps {
 export default function CustomCursor({ cursorPosition, cursorVariant }: CustomCursorProps) {
   const { theme } = useTheme()
   const isDark = theme === "dark"
+
+  // Prevent hydration mismatch by rendering only on the client
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+  if (!mounted) return null
 
   const variants = {
     default: {

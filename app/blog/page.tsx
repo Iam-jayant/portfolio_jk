@@ -26,151 +26,67 @@ export default function BlogPage() {
   }, [])
 
   const blogPosts = [
-  {
-    id: 1,
-    title: "Building a Web3 Remittance Platform",
-    content: `
-      <p>
-        Learn how I built a cross-border payment system leveraging blockchain technology to eliminate banking intermediaries and reduce transaction costs.
-      </p>
-      <p>
-        <strong>Key Features:</strong>
-        <ul>
-          <li>Decentralized transactions</li>
-          <li>Low fees</li>
-          <li>Real-time settlements</li>
-        </ul>
-      </p>
-      <p>
-        This project demonstrates how blockchain can transform global payments and financial inclusion.
-      </p>
-    `,
-    date: "May 10, 2025",
-    category: "Blockchain",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "building-web3-remittance-platform",
-  },
-  {
-    id: 2,
-    title: "Implementing Emotion Detection with OpenAI",
-    content: `
-      <p>
-        A deep dive into how I created an AI-driven chatbot that detects user emotions and delivers personalized mental health insights using NLP and sentiment analysis.
-      </p>
-      <p>
-        <strong>Highlights:</strong>
-        <ul>
-          <li>Integrated OpenAI's GPT for emotion detection</li>
-          <li>Real-time sentiment analysis</li>
-          <li>Personalized feedback for users</li>
-        </ul>
-      </p>
-      <p>
-        This project showcases the power of AI in understanding and supporting mental health.
-      </p>
-    `,
-    date: "April 25, 2025",
-    category: "AI",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "implementing-emotion-detection-openai",
-  },
-  {
-    id: 3,
-    title: "The Future of Healthcare Management Systems",
-    content: `
-      <p>
-        Exploring how technology is transforming healthcare management and the development of my student healthcare management platform.
-      </p>
-      <p>
-        <strong>Key Points:</strong>
-        <ul>
-          <li>Centralized patient records</li>
-          <li>Automated appointment scheduling</li>
-          <li>Data-driven insights for better care</li>
-        </ul>
-      </p>
-      <p>
-        The platform aims to streamline healthcare processes for both providers and patients.
-      </p>
-    `,
-    date: "April 12, 2025",
-    category: "Healthcare Tech",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "future-healthcare-management-systems",
-  },
-  {
-    id: 4,
-    title: "Mastering Framer Motion Animations",
-    content: `
-      <p>
-        A comprehensive guide to creating smooth, engaging animations in React applications using Framer Motion.
-      </p>
-      <p>
-        <strong>What you'll learn:</strong>
-        <ul>
-          <li>Basic and advanced animation techniques</li>
-          <li>Gesture and drag animations</li>
-          <li>Performance optimization tips</li>
-        </ul>
-      </p>
-      <p>
-        Bring your React UI to life with Framer Motion!
-      </p>
-    `,
-    date: "March 30, 2025",
-    category: "Web Development",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "mastering-framer-motion-animations",
-  },
-  {
-    id: 5,
-    title: "Creating a Netflix-Inspired Portfolio",
-    content: `
-      <p>
-        How I designed and built a cinematic, Netflix-inspired portfolio website with React, Tailwind CSS, and Framer Motion.
-      </p>
-      <p>
-        <strong>Features:</strong>
-        <ul>
-          <li>Card-based layout</li>
-          <li>Animated transitions</li>
-          <li>Responsive and accessible design</li>
-        </ul>
-      </p>
-      <p>
-        This project demonstrates how to blend creativity and technology for personal branding.
-      </p>
-    `,
-    date: "March 15, 2025",
-    category: "Design",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "creating-netflix-inspired-portfolio",
-  },
-  {
-    id: 6,
-    title: "Smart Contracts for Beginners",
-    content: `
-      <p>
-        An introduction to Ethereum smart contracts and how to start building your own decentralized applications.
-      </p>
-      <p>
-        <strong>Covered topics:</strong>
-        <ul>
-          <li>What are smart contracts?</li>
-          <li>Writing your first contract in Solidity</li>
-          <li>Deploying to the Ethereum testnet</li>
-        </ul>
-      </p>
-      <p>
-        Start your journey into blockchain development with this beginner-friendly guide.
-      </p>
-    `,
-    date: "February 28, 2025",
-    category: "Blockchain",
-    image: "/placeholder.svg?height=600&width=800",
-    slug: "smart-contracts-beginners",
-  },
-]
+    {
+      id: 1,
+      title: "Building a Web3 Remittance Platform",
+      excerpt:
+        "Learn how I built a cross-border payment system leveraging blockchain technology to eliminate banking intermediaries and reduce transaction costs.",
+      date: "May 10, 2025",
+      category: "Blockchain",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "building-web3-remittance-platform",
+    },
+    {
+      id: 2,
+      title: "Implementing Emotion Detection with OpenAI",
+      excerpt:
+        "A deep dive into how I created an AI-driven chatbot that detects user emotions and delivers personalized mental health insights using NLP and sentiment analysis.",
+      date: "April 25, 2025",
+      category: "AI",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "implementing-emotion-detection-openai",
+    },
+    {
+      id: 3,
+      title: "The Future of Healthcare Management Systems",
+      excerpt:
+        "Exploring how technology is transforming healthcare management and the development of my student healthcare management platform.",
+      date: "April 12, 2025",
+      category: "Healthcare Tech",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "future-healthcare-management-systems",
+    },
+    {
+      id: 4,
+      title: "Mastering Framer Motion Animations",
+      excerpt:
+        "A comprehensive guide to creating smooth, engaging animations in React applications using Framer Motion.",
+      date: "March 30, 2025",
+      category: "Web Development",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "mastering-framer-motion-animations",
+    },
+    {
+      id: 5,
+      title: "Creating a Netflix-Inspired Portfolio",
+      excerpt:
+        "How I designed and built a cinematic, Netflix-inspired portfolio website with React, Tailwind CSS, and Framer Motion.",
+      date: "March 15, 2025",
+      category: "Design",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "creating-netflix-inspired-portfolio",
+    },
+    {
+      id: 6,
+      title: "Smart Contracts for Beginners",
+      excerpt:
+        "An introduction to Ethereum smart contracts and how to start building your own decentralized applications.",
+      date: "February 28, 2025",
+      category: "Blockchain",
+      image: "/placeholder.svg?height=600&width=800",
+      slug: "smart-contracts-beginners",
+    },
+  ]
 
   const filteredPosts = blogPosts.filter(
     (post) =>

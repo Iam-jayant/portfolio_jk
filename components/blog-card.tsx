@@ -23,13 +23,13 @@ interface BlogCardProps {
 
 export default function BlogCard({ post, setCursorVariant }: BlogCardProps) {
   return (
-    <Link href={`/blog/${post.slug}`}>
-      <motion.div
-        className="group h-full bg-zinc-50 dark:bg-zinc-900/50 rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:shadow-lg dark:hover:shadow-purple-900/10 transition-all duration-300"
-        whileHover={{ y: -5 }}
-        onMouseEnter={() => setCursorVariant("card")}
-        onMouseLeave={() => setCursorVariant("default")}
-      >
+    <motion.div
+      className="group h-full bg-zinc-50 dark:bg-zinc-900/50 rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:shadow-lg dark:hover:shadow-purple-900/10 transition-all duration-300"
+      whileHover={{ y: -5 }}
+      onMouseEnter={() => setCursorVariant("card")}
+      onMouseLeave={() => setCursorVariant("default")}
+    >
+      <Link href={`/blog/${post.slug}`} className="block focus:outline-none">
         <div className="relative aspect-video overflow-hidden">
           <Image
             src={post.image || "/placeholder.svg"}
@@ -52,11 +52,15 @@ export default function BlogCard({ post, setCursorVariant }: BlogCardProps) {
             {post.title}
           </h3>
           <p className="text-zinc-600 dark:text-zinc-300 line-clamp-3">{post.excerpt}</p>
-          <div className="mt-4 text-purple-600 dark:text-purple-400 font-medium text-sm group-hover:underline">
+          <span
+            className="mt-4 text-purple-600 dark:text-purple-400 font-medium text-sm group-hover:underline block cursor-pointer"
+            onMouseEnter={() => setCursorVariant("link")}
+            onMouseLeave={() => setCursorVariant("default")}
+          >
             Read More
-          </div>
+          </span>
         </div>
-      </motion.div>
-    </Link>
+      </Link>
+    </motion.div>
   )
 }
