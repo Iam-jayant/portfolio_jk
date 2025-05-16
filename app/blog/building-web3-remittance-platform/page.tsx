@@ -12,7 +12,7 @@ export default function BlogWeb3Remittance() {
         className="w-full rounded-lg mb-8"
       />
       <section>
-        <h2 className="text-2xl font-bold mb-4 mt-8">Remittance System: Building a Stablecoin-Based Blockchain Solution</h2>
+        <h2 className="text-2xl font-bold mb-4 mt-8">BridgePay - Remittance System: Building a Stablecoin-Based Blockchain Solution</h2>
 
         <p className="mb-4">
           When I signed up for my first hackathon, I thought I was prepared. My teammate and I had spent days perfecting our presentation—outlining a stablecoin-based remittance system that could make cross-border transfers fast and affordable. We boarded the train to IIIT Naya Raipur confident and excited. Then, just thirty minutes later, the organizers released the actual problem statements. Suddenly, terms like “blockchain,” “stablecoins,” and “decentralized authentication” felt completely foreign.

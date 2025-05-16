@@ -58,9 +58,9 @@ export default function BlogPage() {
     },
     {
       id: 4,
-      title: "Mastering Framer Motion Animations",
+      title: "Is AI Making Coding Easier or Lazier?",
       excerpt:
-        "A comprehensive guide to creating smooth, engaging animations in React applications using Framer Motion.",
+        "My Thoughts After Using GPT in Every Project. A reflection on the impact of AI on coding practices and developer skills.",
       date: "March 30, 2025",
       category: "Web Development",
       image: "/placeholder.svg?height=600&width=800",
@@ -68,9 +68,9 @@ export default function BlogPage() {
     },
     {
       id: 5,
-      title: "Creating a Netflix-Inspired Portfolio",
+      title: "Creating a Portfolio",
       excerpt:
-        "How I designed and built a cinematic, Netflix-inspired portfolio website with React, Tailwind CSS, and Framer Motion.",
+        "How I designed and built a cinematic portfolio website with React, Tailwind CSS, and Framer Motion.",
       date: "March 15, 2025",
       category: "Design",
       image: "/placeholder.svg?height=600&width=800",
