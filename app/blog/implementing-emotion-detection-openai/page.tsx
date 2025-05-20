@@ -7,7 +7,7 @@ export default function BlogEmotionDetection() {
       <h1 className="text-4xl font-bold mb-6">Implementing Emotion Detection with OpenAI</h1>
       <div className="text-zinc-500 text-sm mb-6">April 25, 2025</div>
       <img
-        src="/placeholder.svg?height=600&width=800"
+        src="/emotional-blog.png"
         alt="Implementing Emotion Detection with OpenAI"
         className="w-full rounded-lg mb-8"
       />

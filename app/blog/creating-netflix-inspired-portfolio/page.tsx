@@ -7,7 +7,7 @@ export default function BlogCreatingNetflixInspiredPortfolio() {
       <h1 className="text-4xl font-bold mb-6">Creating a Netflix-Inspired Portfolio</h1>
       <div className="text-zinc-500 text-sm mb-6">March 15, 2025</div>
       <img
-        src="/placeholder.svg?height=600&width=800"
+        src="/portfolio.png"
         alt="Creating a Netflix-Inspired Portfolio"
         className="w-full rounded-lg mb-8"
       />

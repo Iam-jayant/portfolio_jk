@@ -9,7 +9,7 @@ export default function BlogFramerMotion() {
       </h1>
       <div className="text-zinc-500 text-sm mb-6">March 30, 2025</div>
       <img
-        src="/placeholder.svg?height=600&width=800"
+        src="/ai.jpg"
         alt="Is AI Making Coding Easier or Lazier?"
         className="w-full rounded-lg mb-8"
       />

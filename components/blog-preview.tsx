@@ -18,7 +18,7 @@ export default function BlogPreview({ setCursorVariant }: BlogPreviewProps) {
         "Learn how I built a cross-border payment system leveraging blockchain technology to eliminate banking intermediaries and reduce transaction costs.",
       date: "May 10, 2025",
       category: "Blockchain",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/blockchain-blog.jpeg",
       slug: "building-web3-remittance-platform",
     },
     {
@@ -28,7 +28,7 @@ export default function BlogPreview({ setCursorVariant }: BlogPreviewProps) {
         "A deep dive into how I created an AI-driven chatbot that detects user emotions and delivers personalized mental health insights using NLP and sentiment analysis.",
       date: "April 25, 2025",
       category: "AI",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/emotional-blog.png",
       slug: "implementing-emotion-detection-openai",
     },
     {
@@ -38,7 +38,7 @@ export default function BlogPreview({ setCursorVariant }: BlogPreviewProps) {
         "Exploring how technology is transforming healthcare management and the development of my student healthcare management platform.",
       date: "April 12, 2025",
       category: "Healthcare Tech",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/health-blog.png",
       slug: "future-healthcare-management-systems",
     },
   ]

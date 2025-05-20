@@ -7,7 +7,7 @@ export default function BlogWeb3Remittance() {
       <h1 className="text-4xl font-bold mb-6">Building a Web3 Remittance Platform</h1>
       <div className="text-zinc-500 text-sm mb-6">May 10, 2025</div>
       <img
-        src="/placeholder.svg?height=600&width=800"
+        src="/blockchain-blog.jpeg"
         alt="Building a Web3 Remittance Platform"
         className="w-full rounded-lg mb-8"
       />

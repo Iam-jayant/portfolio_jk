@@ -150,7 +150,7 @@ export default function Hero({ setCursorVariant }: HeroProps) {
             className="flex justify-center space-x-4"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/Iam-jayant"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 dark:hover:bg-purple-900/50 transition-colors"
@@ -160,7 +160,7 @@ export default function Hero({ setCursorVariant }: HeroProps) {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jayant-kurekar/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 dark:hover:bg-purple-900/50 transition-colors"

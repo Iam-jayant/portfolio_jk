@@ -29,7 +29,7 @@ export default function Testimonials({ setCursorVariant }: TestimonialsProps) {
       role: "Project Mate",
       quote:
         "Worked with Jayant on our emotional AI was a pleasure. His understanding of both the technical and human aspects of the project made him an invaluable team member.",
-      Image:"/placeholder.svg?height=200&width=200",
+      Image:"/manthan.png",
     },
   ]
 
@@ -84,7 +84,7 @@ export default function Testimonials({ setCursorVariant }: TestimonialsProps) {
                         <div className="flex-shrink-0">
                           <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-white dark:border-zinc-800 shadow-md">
                             <Image
-                              src={testimonial.image || "/placeholder.svg"}
+                              src={testimonial.image || "/manthan.png"}
                               alt={testimonial.name}
                               fill
                               className="object-cover"

@@ -33,7 +33,7 @@ export default function BlogPage() {
         "Learn how I built a cross-border payment system leveraging blockchain technology to eliminate banking intermediaries and reduce transaction costs.",
       date: "May 10, 2025",
       category: "Blockchain",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/blockchain-blog.jpeg",
       slug: "building-web3-remittance-platform",
     },
     {
@@ -43,7 +43,7 @@ export default function BlogPage() {
         "A deep dive into how I created an AI-driven chatbot that detects user emotions and delivers personalized mental health insights using NLP and sentiment analysis.",
       date: "April 25, 2025",
       category: "AI",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/emotional-blog.png",
       slug: "implementing-emotion-detection-openai",
     },
     {
@@ -53,7 +53,7 @@ export default function BlogPage() {
         "Exploring how technology is transforming healthcare management and the development of my student healthcare management platform.",
       date: "April 12, 2025",
       category: "Healthcare Tech",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/healthcare.jpg",
       slug: "future-healthcare-management-systems",
     },
     {
@@ -63,7 +63,7 @@ export default function BlogPage() {
         "My Thoughts After Using GPT in Every Project. A reflection on the impact of AI on coding practices and developer skills.",
       date: "March 30, 2025",
       category: "Web Development",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/ai.jpg",
       slug: "mastering-framer-motion-animations",
     },
     {
@@ -73,7 +73,7 @@ export default function BlogPage() {
         "How I designed and built a cinematic portfolio website with React, Tailwind CSS, and Framer Motion.",
       date: "March 15, 2025",
       category: "Design",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/portfolio.png",
       slug: "creating-netflix-inspired-portfolio",
     },
     {
@@ -83,7 +83,7 @@ export default function BlogPage() {
         "An introduction to Ethereum smart contracts and how to start building your own decentralized applications.",
       date: "February 28, 2025",
       category: "Blockchain",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/smart contract-blog.png",
       slug: "smart-contracts-beginners",
     },
   ]

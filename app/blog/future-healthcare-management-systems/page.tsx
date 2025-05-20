@@ -7,7 +7,7 @@ export default function BlogHealthcareManagement() {
       <h1 className="text-4xl font-bold mb-6">The Future of Healthcare Management Systems</h1>
       <div className="text-zinc-500 text-sm mb-6">April 12, 2025</div>
       <img
-        src="/placeholder.svg?height=600&width=800"
+        src="/healthcare.jpg"
         alt="The Future of Healthcare Management Systems"
         className="w-full rounded-lg mb-8"
       />

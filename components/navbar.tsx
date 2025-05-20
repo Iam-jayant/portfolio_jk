@@ -41,7 +41,6 @@ export default function Navbar({ setCursorVariant }: NavbarProps) {
     { name: "Resume", path: "/resume" },
     { name: "Projects", path: "/projects" },
     { name: "Blog", path: "/blog" },
-    { name: "Photography", path: "/photography" },
     { name: "Codolio", path: "/codolio" },
     { name: "Contact", path: "/contact" },
   ]
