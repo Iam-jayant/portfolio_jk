@@ -30,7 +30,7 @@ export default function About({ setCursorVariant }: AboutProps) {
             >
               <div className="aspect-square overflow-hidden rounded-xl glassmorphic">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/jayant.jpeg"
                   alt="Jayant Kurekar"
                   width={600}
                   height={600}
