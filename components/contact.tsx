@@ -143,15 +143,90 @@ export default function Contact({ setCursorVariant }: ContactProps) {
             >
               {/* ...Contact info and social links as in your original file... */}
               <h3 className="text-2xl font-bold mb-6 text-purple-400">Contact Information</h3>
+
               <div className="space-y-6">
-                {/* Email, Location, GitHub, LinkedIn blocks */}
-                {/* ...copy from your original file... */}
+                <div className="flex items-start gap-4">
+                  <Mail className="w-6 h-6 text-purple-400 mt-1" />
+                  <div>
+                    <h4 className="font-semibold">Email</h4>
+                    <p className="text-zinc-400">jayantkurekar1@gmail.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <MapPin className="w-6 h-6 text-purple-400 mt-1" />
+                  <div>
+                    <h4 className="font-semibold">Location</h4>
+                    <p className="text-zinc-400">Nagpur, India</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <Github className="w-6 h-6 text-purple-400 mt-1" />
+                  <div>
+                    <h4 className="font-semibold">GitHub</h4>
+                    <a
+                      href="https://github.com/Iam-jayant"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-zinc-400 hover:text-purple-400 transition-colors"
+                      onMouseEnter={() => setCursorVariant("link")}
+                      onMouseLeave={() => setCursorVariant("default")}
+                    >
+                      https://github.com/Iam-jayant
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <Linkedin className="w-6 h-6 text-purple-400 mt-1" />
+                  <div>
+                    <h4 className="font-semibold">LinkedIn</h4>
+                    <a
+                      href="https://www.linkedin.com/in/jayant-kurekar/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-zinc-400 hover:text-purple-400 transition-colors"
+                      onMouseEnter={() => setCursorVariant("link")}
+                      onMouseLeave={() => setCursorVariant("default")}
+                    >
+                      https://www.linkedin.com/in/jayant-kurekar/
+                    </a>
+                  </div>
+                </div>
               </div>
+
               <div className="mt-10">
                 <h4 className="font-semibold mb-4">Connect with me</h4>
                 <div className="flex gap-4">
-                  {/* Social icons */}
-                  {/* ...copy from your original file... */}
+                  <a
+                    href="https://github.com/Iam-jayant"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 transition-colors"
+                    onMouseEnter={() => setCursorVariant("link")}
+                    onMouseLeave={() => setCursorVariant("default")}
+                  >
+                    <Github className="w-5 h-5" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/jayant-kurekar/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 transition-colors"
+                    onMouseEnter={() => setCursorVariant("link")}
+                    onMouseLeave={() => setCursorVariant("default")}
+                  >
+                    <Linkedin className="w-5 h-5" />
+                  </a>
+                  <a
+                    href="mailto:jayantkurekar1@gmail.com"
+                    className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-purple-900/50 transition-colors"
+                    onMouseEnter={() => setCursorVariant("link")}
+                    onMouseLeave={() => setCursorVariant("default")}
+                  >
+                    <Mail className="w-5 h-5" />
+                  </a>
                 </div>
               </div>
             </motion.div>
