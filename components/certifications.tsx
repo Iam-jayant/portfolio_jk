@@ -93,7 +93,7 @@ const internships = [
     issuer: "Edunet Foundation",
     date: "2025",
     icon: <Briefcase className="w-6 h-6 text-green-400" />,
-    link: "Not available",
+    link: "https://github.com/Iam-jayant/Certificates/blob/81397db0796cbd98d8c3d73e82282c281f9e3e56/edunet%20certificate.pdf",
   },
 ];
 
