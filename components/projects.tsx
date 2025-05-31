@@ -39,7 +39,7 @@ export default function Projects({ setCursorVariant }: ProjectsProps) {
       image: "/healthcare.jpg",
       tags: ["React", "Node.js", "MongoDB", "Healthcare"],
       github: "https://github.com/Iam-jayant/aarogyam_xenos",
-      demo: "not available",
+      demo: "https://aarogyam-hypg.onrender.com/",
     },
     {
       id: 4,
