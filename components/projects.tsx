@@ -51,6 +51,16 @@ export default function Projects({ setCursorVariant }: ProjectsProps) {
       github: "https://github.com/Iam-jayant/portfolio_jk",
       demo: "https://jayantkurekar.netlify.app/",
     },
+    {
+      id: 5,
+      title: "Jeevan Setu Organ Donation Platform",
+      description:
+        "Jeevan Setu is a centralized platform connecting organ donors and recipients, acting as a bridge to prevent organ wastage and streamline the donation process. Built with a modern tech stack for reliability and security.",
+      image: "/portfolio.png",
+      tags: ["React", "Full-Stack Dev", "Tailwind CSS"],
+      github: "https://github.com/Iam-jayant/Jeevan-Setu",
+      demo: "https://jeevan-setu-xenos.vercel.app/",
+    },
   ]
 
   return (
@@ -78,7 +88,7 @@ export default function Projects({ setCursorVariant }: ProjectsProps) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {projects.slice(0, 4).map((project, index) => (
+            {projects.map((project, index) => (
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, y: 20 }}

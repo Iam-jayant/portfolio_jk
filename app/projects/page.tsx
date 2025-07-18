@@ -63,6 +63,26 @@ export default function ProjectsPage() {
       github: "https://github.com/Iam-jayant/portfolio_jk",
       demo: "https://jayantkurekar.netlify.app/",
     },
+    {
+      id: 5,
+      title: "Jeevan Setu Organ Donation Platform",
+      description:
+        "Jeevan Setu is a centralized platform connecting organ donors and recipients, acting as a bridge to prevent organ wastage and streamline the donation process. Built with a modern tech stack for reliability and security.",
+      image: "/portfolio.png",
+      tags: ["React", "Full-Stack Dev", "Tailwind CSS"],
+      github: "https://github.com/Iam-jayant/Jeevan-Setu",
+      demo: "https://jeevan-setu-xenos.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Uploading Soon",
+      description:
+        "A new project will be uploaded soon. Stay tuned for updates!",
+      image: "/placeholder.svg",
+      tags: ["Coming Soon"],
+      github: "#",
+      demo: "#",
+    },
   ]
 
   return (
