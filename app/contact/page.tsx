@@ -14,6 +14,8 @@ export default function ContactPage() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
   const [cursorVariant, setCursorVariant] = useState("default")
 
+  //temporary code
+  
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       setCursorPosition({ x: e.clientX, y: e.clientY })
