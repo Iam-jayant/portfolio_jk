@@ -28,7 +28,7 @@ export default function ResumePage() {
           Resume
         </h1>
         <img
-          src="/resume.png"
+          src="/resume.jpg"
           alt="Resume"
           className="max-w-full max-h-[90vh] rounded-lg shadow-lg"
           style={{ objectFit: "contain", border: "none" }}

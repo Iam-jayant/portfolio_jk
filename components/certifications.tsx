@@ -15,14 +15,14 @@ const achievements = [
         </>
       ),
       issuer: "FLUXUS - IIT Indore",
-      date: "2024",
+      date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/iit%20indore.pdf",
     },
     {
       title: "Code Of Phoenix",
       issuer: "IIIT Naya Raipur",
-      date: "2024",
+      date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/code%20of%20phoenix.pdf",
     },
@@ -34,11 +34,11 @@ const achievements = [
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Hack%20On%20GCOEN.pdf",
     },
     {
-      title: "Tech-Kruti Hackathon",
-      issuer: "TGP Nagpur",
+      title: "CIH 2.0 Nagpur",
+      issuer: "Suryodaya College Nagpur",
       date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Hack%20On%20GCOEN.pdf",
+      link: "https://github.com/Iam-jayant/Certificates/blob/bb6c686d9ca212529ada114c12730cc3cfcd0bfe/cih%202.0%20certificate.pdf",
     },
     {
       title: "Krutiverse Hackathon",
@@ -46,6 +46,13 @@ const achievements = [
       date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/TGP%20krutiverese%20Hackathon.pdf",
+    },
+    {
+      title: "Gradio Agents & MCP Hackathon",
+      issuer: "Gradio & Hugging Face",
+      date: "2025",
+      icon: <Trophy className="w-6 h-6 text-yellow-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/c27e53ac7355c016b58a05abe1a6eac48e7c5675/Certificate-AgentsMCP-Hackathon-1753275644066_6550.pdf",
     },
   ]
 
