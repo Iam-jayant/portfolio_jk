@@ -56,10 +56,20 @@ export default function Projects({ setCursorVariant }: ProjectsProps) {
       title: "Jeevan Setu Organ Donation Platform",
       description:
         "Jeevan Setu is a centralized platform connecting organ donors and recipients, acting as a bridge to prevent organ wastage and streamline the donation process. Built with a modern tech stack for reliability and security.",
-      image: "/portfolio.png",
+      image: "/jeevan-setu.png",
       tags: ["React", "Full-Stack Dev", "Tailwind CSS"],
       github: "https://github.com/Iam-jayant/Jeevan-Setu",
       demo: "https://jeevan-setu-xenos.vercel.app/",
+    },
+    {
+    id: 6,
+      title: "Notified - Event Discovery Platform",
+      description:
+        "Notified is a city-based event discovery platform that helps students and professionals find nearby tech events, workshops, and meetups in real-time. With smart filtering and a sleek UI, it keeps you in the loop without the FOMO.",
+      image: "/notified.png",
+      tags: ["React", "Full-Stack Dev", "Tailwind CSS", "AI"],
+      github: "https://github.com/Iam-jayant/notifiED",
+      demo: "https://www.notified.tech/",
     },
   ]
 
