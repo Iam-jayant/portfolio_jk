@@ -9,36 +9,11 @@ type AchievementsSectionProps = {
 
 const achievements = [
     {
-      title: (
-        <>
-          Healthcare Management <br /> System Hackathon
-        </>
-      ),
-      issuer: "FLUXUS - IIT Indore",
+      title: "Web3 Hackathon",
+      issuer: "IIIT Nagpur",
       date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/iit%20indore.pdf",
-    },
-    {
-      title: "Code Of Phoenix",
-      issuer: "IIIT Naya Raipur",
-      date: "2025",
-      icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/code%20of%20phoenix.pdf",
-    },
-    {
-      title: "Hack On",
-      issuer: "GDG on Campus GCOEN",
-      date: "2025",
-      icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Hack%20On%20GCOEN.pdf",
-    },
-    {
-      title: "CIH 2.0 Nagpur",
-      issuer: "Suryodaya College Nagpur",
-      date: "2025",
-      icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/bb6c686d9ca212529ada114c12730cc3cfcd0bfe/cih%202.0%20certificate.pdf",
+      link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/IIIT%20Nagpur%20Web3%20Hackathon.pdf",
     },
     {
       title: "Krutiverse Hackathon",
@@ -48,15 +23,71 @@ const achievements = [
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/TGP%20krutiverese%20Hackathon.pdf",
     },
     {
-      title: "Gradio Agents & MCP Hackathon",
-      issuer: "Gradio & Hugging Face",
+      title: "Hack On",
+      issuer: "GDG on Campus GCOEN",
       date: "2025",
       icon: <Trophy className="w-6 h-6 text-yellow-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/c27e53ac7355c016b58a05abe1a6eac48e7c5675/Certificate-AgentsMCP-Hackathon-1753275644066_6550.pdf",
+      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Hack%20On%20GCOEN.pdf",
     },
   ]
 
   const skillCertificates = [
+    {
+      title: "Healthcare Management System Hackathon",
+      issuer: "FLUXUS - IIT Indore",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/iit%20indore.pdf",
+    },
+    {
+      title: "Code Of Phoenix",
+      issuer: "IIIT Naya Raipur",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/code%20of%20phoenix.pdf",
+    },
+    {
+      title: "CIH 2.0 Nagpur",
+      issuer: "Suryodaya College Nagpur",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/bb6c686d9ca212529ada114c12730cc3cfcd0bfe/cih%202.0%20certificate.pdf",
+    },
+    {
+      title: "Devcraft Hackathon",
+      issuer: "IIT Indore",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/Devcraft%20Esummit%20IIT%20Indore.pdf",
+    },
+    {
+      title: "DSU Devhack 2.0",
+      issuer: "DSU Bangaluru",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/DSU%20Devhack%202.0.pdf",
+    },
+    {
+      title: "Ethglobal New Delhi",
+      issuer: "Ethereum Global",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/Ethglobal%20New%20Delhi%202025.pdf",
+    },
+    {
+      title: "Ecothon 4.0",
+      issuer: "Sipna College Nagpur",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Hackathon/ecothon%204.0%20certificate%20jayant.pdf",
+    },
+    {
+      title: "Gradio Agents & MCP Hackathon",
+      issuer: "Gradio & Hugging Face",
+      date: "2025",
+      icon: <Award className="w-6 h-6 text-purple-400" />,
+      link: "https://github.com/Iam-jayant/Certificates/blob/c27e53ac7355c016b58a05abe1a6eac48e7c5675/Certificate-AgentsMCP-Hackathon-1753275644066_6550.pdf",
+    },
     {
       title: "GfG 160 - 160 Days of Problem Solving",
       issuer: "GeeksforGeeks",
@@ -64,27 +95,6 @@ const achievements = [
       icon: <Award className="w-6 h-6 text-purple-400" />,
       link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/gfg%2022weeks.pdf",
     },
-    {
-      title: "C Programming",
-      issuer: "The Digital Adda",
-      date: "2024",
-      icon: <Award className="w-6 h-6 text-purple-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/C%20Programming%20-%20TDA.pdf",
-    },
-    {
-      title: "Web Development",
-      issuer: "The Digital Adda",
-      date: "2024",
-      icon: <Award className="w-6 h-6 text-purple-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/Web%20Dev%20-%20TDA.pdf",
-    },
-    {
-      title: "Gen Ai",
-      issuer: "LinkedIn",
-      date: "2025",
-      icon: <Award className="w-6 h-6 text-purple-400" />,
-      link: "https://github.com/Iam-jayant/Certificates/blob/a8770f82b4972122a549eef912fd7491ab5a0c92/CertificateOfCompletion_What%20Is%20Generative%20AI.pdf",
-    }
   ];
 
 const internships = [
@@ -102,6 +112,13 @@ const internships = [
     icon: <Briefcase className="w-6 h-6 text-green-400" />,
     link: "https://github.com/Iam-jayant/Certificates/blob/81397db0796cbd98d8c3d73e82282c281f9e3e56/edunet%20certificate.pdf",
   },
+  {
+    title: "IBM Skillsbuild & Cloud",
+    issuer: "Edunet Foundationq",
+    date: "2025",
+    icon: <Briefcase className="w-6 h-6 text-green-400" />,
+    link: "https://github.com/Iam-jayant/Certificates/blob/61b0d91300168a44c4be6b2f15dfae1c27fa3d67/Internship/edunet%20certificate%20ibm.pdf",
+  }
 ];
 
 export default function AchievementsSection({ setCursorVariant }: AchievementsSectionProps) {
