@@ -96,6 +96,7 @@ export default function Contact({ setCursorVariant }: ContactProps) {
                     onMouseEnter={() => setCursorVariant("input")}
                     onMouseLeave={() => setCursorVariant("default")}
                     required
+                    suppressHydrationWarning
                   />
                 </div>
                 <div className="space-y-2">
