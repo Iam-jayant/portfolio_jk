@@ -12,22 +12,22 @@ export default function Skills({ setCursorVariant }: SkillsProps) {
     {
       name: "Programming Languages",
       icon: <FileCode className="w-6 h-6 text-red-400" />,
-      skills: ["Java", "JavaScript", "Node.js", "C", "Python", "HTML", "CSS"],
+      skills: ["Java", "JavaScript", "Node.js", "C" , "Solidity" , "Python", "HTML", "CSS"],
     },
     {
       name: "Libraries & Frameworks",
       icon: <Code className="w-6 h-6 text-purple-400" />,
-      skills: ["React.js", "Express.js", "OpenAI API", "Web3.js"],
+      skills: ["React.js", "Express.js", "Web3.js"],
     },
     {
       name: "Tools & Platforms",
       icon: <Layers className="w-6 h-6 text-blue-400" />,
-      skills: ["Git", "GitHub", "VS Code", "Microsoft Azure", "IntelliJ IDEA"],
+      skills: ["Git", "GitHub", "VS Code", "Microsoft Azure", "Remix IDE" , "Supabase", "IntelliJ IDEA" , "Vercel"],
     },
     {
       name: "Databases",
       icon: <Database className="w-6 h-6 text-green-400" />,
-      skills: ["MongoDB", "PostgreSQL", "Firebase"],
+      skills: ["MongoDB", "PostgreSQL"],
     },
     {
       name: "CS Fundamentals",
